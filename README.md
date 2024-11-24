@@ -1,7 +1,29 @@
-# qr-code-generator
-This is a Python application that generates QR codes based on a name repeated multiple times. The application is built using tkinter for the graphical user interface (GUI) and utilizes the qrcode library for generating QR codes.
+# QR Code Generator
 
-Features
-Generate QR codes from a name repeated a specified number of times.
-Preview the QR code directly in the app.
-Save the generated QR code as a PNG file.
+A simple and user-friendly QR Code Generator built using Python's Tkinter library. This application allows you to generate QR codes from text or URLs and save them as image files.
+
+## Features
+
+- Generate QR codes from any text or URL.
+- Display a preview of the generated QR code.
+- Save QR codes as PNG image files.
+- Simple and intuitive graphical user interface.
+
+## Demo
+
+![App Screenshot](example_screenshot.png)
+
+## Requirements
+
+- Python 3.x
+- [Pillow](https://pillow.readthedocs.io/) (Python Imaging Library fork)
+- [qrcode](https://pypi.org/project/qrcode/)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/qr-code-generator.git
+   cd qr-code-generator
+
